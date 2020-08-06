@@ -52,19 +52,17 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="255dp"
-            android:layout_marginLeft="255dp"
+            android:layout_marginStart="173dp"
+            android:layout_marginLeft="173dp"
             android:layout_marginTop="137dp"
-            android:layout_marginEnd="95dp"
-            android:layout_marginRight="95dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginRight="177dp"
             android:layout_marginBottom="575dp"
             android:text="provincia "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView6"
