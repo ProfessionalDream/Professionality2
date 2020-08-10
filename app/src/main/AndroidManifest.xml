@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.professionaldream.professionality.categorie"></activity>
-        <activity android:name="com.professionaldream.professionality.annuncio" />
-        <activity android:name="com.professionaldream.professionality.register" />
-        <activity android:name="com.professionaldream.professionality.Home" />
+        <activity android:name="com.example.professionality.modificaprofilo"></activity>
+        <activity android:name=".categorie" />
+        <activity android:name=".annuncio" />
+        <activity android:name=".register" />
+        <activity android:name=".Home" />
         <activity
-            android:name="com.professionaldream.professionality.ui.login.login"
+            android:name=".ui.login.login"
             android:label="@string/title_activity_login" />
-        <activity android:name="com.professionaldream.professionality.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
