@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.professionality">
+    package="com.professionaldream.professionality">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".categorie"></activity>
-        <activity android:name=".annuncio" />
-        <activity android:name=".register" />
-        <activity android:name=".Home" />
-        <activity android:name=".aaaaaaaa" />
+        <activity android:name="com.professionaldream.professionality.categorie"></activity>
+        <activity android:name="com.professionaldream.professionality.annuncio" />
+        <activity android:name="com.professionaldream.professionality.register" />
+        <activity android:name="com.professionaldream.professionality.Home" />
         <activity
-            android:name=".ui.login.login"
+            android:name="com.professionaldream.professionality.ui.login.login"
             android:label="@string/title_activity_login" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.professionaldream.professionality.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

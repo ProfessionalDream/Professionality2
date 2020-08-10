@@ -1,4 +1,4 @@
-package com.example.professionality;
+package com.professionaldream.professionality;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,8 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.professionality.ui.login.*;
+
+import com.professionaldream.professionality.ui.login.login;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             for(int y=0;x<10000;x++){
                 y=(y*987)/987;
             }
-            p.setProgress(x/10000,true);
+            p.incrementProgressBy(1);
         }
         return true;
     }

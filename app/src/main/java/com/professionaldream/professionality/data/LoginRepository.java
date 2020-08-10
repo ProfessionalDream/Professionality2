@@ -1,6 +1,8 @@
-package com.example.professionality.data;
+package com.professionaldream.professionality.data;
 
-import com.example.professionality.data.model.LoggedInUser;
+import android.app.Activity;
+
+import com.professionaldream.professionality.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and
@@ -39,13 +41,11 @@ public class LoginRepository {
 
     private void setLoggedInUser(LoggedInUser user) {
         this.user = user;
-        // If user credentials will be cached in local storage, it is recommended it be encrypted
-        // @see https://developer.android.com/training/articles/keystore
     }
 
-    public Result<LoggedInUser> login(String username, String password) {
+    public Result<LoggedInUser> login(String username, String password, Activity worker) {
         // handle login
-        Result<LoggedInUser> result = dataSource.login(username, password);
+        Result<LoggedInUser> result = dataSource.login(username, password,worker);
         if (result instanceof Result.Success) {
             setLoggedInUser(((Result.Success<LoggedInUser>) result).getData());
         }

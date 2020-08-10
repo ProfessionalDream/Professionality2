@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "692108061813",
+    "firebase_url": "https://professionality-2202b.firebaseio.com",
+    "project_id": "professionality-2202b",
+    "storage_bucket": "professionality-2202b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692108061813:android:a7ffec6a7c3856f3869c3c",
+        "android_client_info": {
+          "package_name": "com.professionaldream.professionality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692108061813-536rch1aqtnha6diohnmiod555qa9ngo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOIQhESlzuyaQhyDSu-rfFOGWsUQ0B6eI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692108061813-536rch1aqtnha6diohnmiod555qa9ngo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

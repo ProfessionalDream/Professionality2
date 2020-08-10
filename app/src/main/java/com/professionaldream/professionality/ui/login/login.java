@@ -1,4 +1,4 @@
-package com.example.professionality.ui.login;
+package com.professionaldream.professionality.ui.login;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,17 +20,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.professionality.Home;
-import com.example.professionality.MainActivity;
-import com.example.professionality.R;
-import com.example.professionality.register;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+import com.professionaldream.professionality.Home;
+import com.professionaldream.professionality.MainActivity;
+import com.professionaldream.professionality.R;
+import com.professionaldream.professionality.register;
 
 public class login extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
-    private FirebaseAuth mAuth;
+    private Activity worker=this;
 
     public void enterGuest(View v){
         boolean ok=guest();
@@ -58,7 +56,6 @@ public class login extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mAuth=FirebaseAuth.getInstance();
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
@@ -95,11 +92,11 @@ public class login extends AppCompatActivity {
                 }
                 if (loginResult.getSuccess() != null) {
                     updateUiWithUser(loginResult.getSuccess());
+                    finish();
                 }
                 setResult(Activity.RESULT_OK);
 
                 //Complete and destroy login activity once successful
-                finish();
             }
         });
 
@@ -128,7 +125,7 @@ public class login extends AppCompatActivity {
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_DONE) {
                     loginViewModel.login(usernameEditText.getText().toString(),
-                            passwordEditText.getText().toString());
+                            passwordEditText.getText().toString(),worker);
                 }
                 return false;
             }
@@ -139,7 +136,7 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
-                        passwordEditText.getText().toString());
+                        passwordEditText.getText().toString(),worker);
             }
         });
     }
@@ -154,10 +151,5 @@ public class login extends AppCompatActivity {
 
     private void showLoginFailed(@StringRes Integer errorString) {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
-    }
-    @Override
-    public void onStart(){
-        super.onStart();
-        FirebaseUser currentUser = mAuth.getCurrentUser();
     }
 }

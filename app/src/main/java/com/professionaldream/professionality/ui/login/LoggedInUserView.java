@@ -1,4 +1,4 @@
-package com.example.professionality.ui.login;
+package com.professionaldream.professionality.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

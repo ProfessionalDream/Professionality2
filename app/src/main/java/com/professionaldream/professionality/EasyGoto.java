@@ -1,4 +1,4 @@
-package com.example.professionality;
+package com.professionaldream.professionality;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -1,15 +1,16 @@
-package com.example.professionality.ui.login;
+package com.professionaldream.professionality.ui.login;
+
+import android.app.Activity;
+import android.util.Patterns;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import android.util.Patterns;
-
-import com.example.professionality.data.LoginRepository;
-import com.example.professionality.data.Result;
-import com.example.professionality.data.model.LoggedInUser;
-import com.example.professionality.R;
+import com.professionaldream.professionality.R;
+import com.professionaldream.professionality.data.LoginRepository;
+import com.professionaldream.professionality.data.Result;
+import com.professionaldream.professionality.data.model.LoggedInUser;
 
 public class LoginViewModel extends ViewModel {
 
@@ -29,9 +30,9 @@ public class LoginViewModel extends ViewModel {
         return loginResult;
     }
 
-    public void login(String username, String password) {
+    public void login(String username, String password, Activity worker) {//worker is needed for firebase
         // can be launched in a separate asynchronous job
-        Result<LoggedInUser> result = loginRepository.login(username, password);
+        Result<LoggedInUser> result = loginRepository.login(username, password,worker);
 
         if (result instanceof Result.Success) {
             LoggedInUser data = ((Result.Success<LoggedInUser>) result).getData();

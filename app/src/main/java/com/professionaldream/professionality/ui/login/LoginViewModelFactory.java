@@ -1,11 +1,11 @@
-package com.example.professionality.ui.login;
+package com.professionaldream.professionality.ui.login;
 
+import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.annotation.NonNull;
 
-import com.example.professionality.data.LoginDataSource;
-import com.example.professionality.data.LoginRepository;
+import com.professionaldream.professionality.data.LoginDataSource;
+import com.professionaldream.professionality.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

@@ -1,4 +1,4 @@
-package com.example.professionality.data;
+package com.professionaldream.professionality.data;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.
