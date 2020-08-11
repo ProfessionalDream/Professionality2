@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    tools:background="#FFFFFF"
     tools:context=".profilo">
 
     <ImageView
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127"
-        app:srcCompat="@drawable/vip" />
+        tools:srcCompat="@drawable/vip" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127"
-        app:srcCompat="@drawable/premium" />
+        tools:srcCompat="@drawable/premium" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -104,13 +104,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068"
-        app:srcCompat="@drawable/verificato" />
+        tools:srcCompat="@drawable/verificato" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        tools:background="#FFFFFF"
         android:text="contatto "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,7 @@
         android:layout_marginEnd="280dp"
         android:layout_marginRight="280dp"
         android:layout_marginBottom="514dp"
-        android:foreground="@drawable/likeno_"
+        tools:foreground="@drawable/likeno_"
         android:shadowColor="#FFFFFF"
         android:text="Button"
         android:visibility="visible"
@@ -173,7 +173,7 @@
         android:id="@+id/divider6"
         android:layout_width="411dp"
         android:layout_height="9dp"
-        android:background="?android:attr/listDivider"
+        tools:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -185,7 +185,7 @@
         android:id="@+id/button21"
         android:layout_width="62dp"
         android:layout_height="59dp"
-        android:foreground="@drawable/home_"
+        tools:foreground="@drawable/home_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -198,7 +198,7 @@
         android:id="@+id/button22"
         android:layout_width="74dp"
         android:layout_height="61dp"
-        android:foreground="@drawable/ricerca_"
+        tools:foreground="@drawable/ricerca_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -211,7 +211,7 @@
         android:id="@+id/button23"
         android:layout_width="72dp"
         android:layout_height="61dp"
-        android:foreground="@drawable/shop"
+        tools:foreground="@drawable/shop"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -224,7 +224,7 @@
         android:id="@+id/button24"
         android:layout_width="69dp"
         android:layout_height="58dp"
-        android:foreground="@drawable/profilo_"
+        tools:foreground="@drawable/profilo_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -237,7 +237,7 @@
         android:id="@+id/button25"
         android:layout_width="160dp"
         android:layout_height="66dp"
-        android:foreground="@drawable/modifica_profilo"
+        tools:foreground="@drawable/modifica_profilo"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

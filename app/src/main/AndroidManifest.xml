@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.professionality.modificaprofilo"></activity>
+        <activity android:name=".modificaprofilo"></activity>
         <activity android:name=".categorie" />
         <activity android:name=".annuncio" />
         <activity android:name=".register" />

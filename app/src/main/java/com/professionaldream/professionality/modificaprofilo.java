@@ -1,8 +1,8 @@
-package com.example.professionality;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.professionaldream.professionality;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class modificaprofilo extends AppCompatActivity {
 

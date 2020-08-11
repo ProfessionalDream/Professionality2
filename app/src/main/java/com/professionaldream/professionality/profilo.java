@@ -1,9 +1,9 @@
-package com.example.professionality;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.professionaldream.professionality;
 
 import android.os.Bundle;
 import android.view.Window;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class profilo extends AppCompatActivity {
 

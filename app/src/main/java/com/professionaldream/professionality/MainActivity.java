@@ -12,14 +12,17 @@ import com.professionaldream.professionality.ui.login.login;
 
 public class MainActivity extends AppCompatActivity {
 
+    Class next=login.class;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     @Override
     public void onAttachedToWindow(){
-        Intent i=new Intent(this,login.class);
+        Intent i=new Intent(this,this.next);
         boolean ok=load();
         if (ok){
             startActivity(i);

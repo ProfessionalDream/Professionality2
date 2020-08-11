@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    tools:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -16,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517"
-        app:srcCompat="@drawable/attivity"
         tools:srcCompat="@drawable/attivity2" />
 
     <ImageView
@@ -29,13 +28,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517"
-        app:srcCompat="@drawable/professionista_" />
+        tools:srcCompat="@drawable/professionista_" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="139dp"
         android:layout_height="59dp"
-        android:foreground="@drawable/professionista"
+        tools:foreground="@drawable/professionista"
         android:text="professionista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +47,7 @@
         android:id="@+id/button4"
         android:layout_width="144dp"
         android:layout_height="59dp"
-        android:foreground="@drawable/attivitybutton"
+        tools:foreground="@drawable/attivitybutton"
         android:text="attivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +65,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.049"
-        app:srcCompat="@drawable/a_cosa_stavi_pensando" />
+        tools:srcCompat="@drawable/a_cosa_stavi_pensando" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
