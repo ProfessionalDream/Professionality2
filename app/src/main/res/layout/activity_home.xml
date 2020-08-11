@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:background="#FFFFFF"
     tools:context=".Home">
 
@@ -11,66 +12,62 @@
         android:id="@+id/button"
         android:layout_width="62dp"
         android:layout_height="59dp"
-        tools:background="@drawable/home_"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.995" />
+        app:layout_constraintVertical_bias="0.995"
+        android:foreground="@drawable/home_" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="74dp"
         android:layout_height="61dp"
-        tools:background="@drawable/ricerca_"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:foreground="@drawable/ricerca_" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="72dp"
         android:layout_height="61dp"
-        tools:background="@drawable/shop"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.997" />
+        app:layout_constraintVertical_bias="0.997"
+        android:foreground="@drawable/shop" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="69dp"
         android:layout_height="58dp"
-        tools:background="@drawable/profilo_"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.995" />
+        app:layout_constraintVertical_bias="0.995"
+        android:foreground="@drawable/profilo_" />
 
     <View
         android:id="@+id/divider"
         android:layout_width="411dp"
         android:layout_height="9dp"
-        tools:background="?android:attr/listDivider"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.914"
+        tools:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider2"
@@ -82,14 +79,14 @@
         android:layout_marginEnd="272dp"
         android:layout_marginRight="272dp"
         android:layout_marginBottom="1dp"
-        tools:background="?android:attr/listDivider"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider3"
@@ -100,14 +97,14 @@
         android:layout_marginTop="660dp"
         android:layout_marginEnd="126dp"
         android:layout_marginRight="126dp"
-        tools:background="?android:attr/listDivider"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider4"
@@ -118,14 +115,14 @@
         android:layout_marginTop="660dp"
         android:layout_marginEnd="97dp"
         android:layout_marginRight="97dp"
-        tools:background="?android:attr/listDivider"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:background="?android:attr/listDivider" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="404dp"
@@ -144,37 +141,35 @@
         android:layout_height="10dp"
         android:layout_marginTop="87dp"
         android:layout_marginBottom="634dp"
-        tools:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="?android:attr/listDivider" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="175dp"
         android:layout_height="83dp"
-        tools:background="@drawable/nuovo_annuncio"
-        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:foreground="@drawable/nuovo_annuncio" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="71dp"
         android:layout_height="57dp"
-        tools:background="@drawable/coin"
-        android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/divider22"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toEndOf="@+id/button7"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintVertical_bias="0.533"
+       android:foreground="@drawable/coin" />
 
     <TextView
         android:id="@+id/textView20"

@@ -34,27 +34,25 @@
         android:id="@+id/button2"
         android:layout_width="139dp"
         android:layout_height="59dp"
-        tools:foreground="@drawable/professionista"
-        android:text="professionista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.697"
+        tools:foreground="@drawable/professionista" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="144dp"
         android:layout_height="59dp"
-        tools:foreground="@drawable/attivitybutton"
-        android:text="attivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.697"
+        tools:foreground="@drawable/attivitybutton" />
 
     <ImageView
         android:id="@+id/imageView2"

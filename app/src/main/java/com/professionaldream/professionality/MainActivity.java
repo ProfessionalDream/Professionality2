@@ -12,7 +12,7 @@ import com.professionaldream.professionality.ui.login.login;
 
 public class MainActivity extends AppCompatActivity {
 
-    Class next=login.class;
+    Class next=categorie.class;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
