@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="#FFFFFF">
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -16,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517"
-        tools:srcCompat="@drawable/attivity2" />
+        app:srcCompat="@drawable/attivity2" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -28,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517"
-        tools:srcCompat="@drawable/professionista_" />
+        app:srcCompat="@drawable/professionista_" />
 
     <Button
         android:id="@+id/button2"
@@ -40,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.697"
-        tools:foreground="@drawable/professionista" />
+        android:foreground="@drawable/professionista" />
 
     <Button
         android:id="@+id/button4"
@@ -52,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.697"
-        tools:foreground="@drawable/attivitybutton" />
+        android:foreground="@drawable/attivitybutton" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -63,6 +62,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.049"
-        tools:srcCompat="@drawable/a_cosa_stavi_pensando" />
+        app:srcCompat="@drawable/a_cosa_stavi_pensando" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

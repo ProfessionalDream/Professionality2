@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:background="#FFFFFF"
     tools:context=".categorie"
     tools:ignore="MissingDefaultResource">
 
@@ -43,8 +42,7 @@
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:background="#FFFFFF"
-                android:foreground="@drawable/agricoltura_" />
+                android:background="@drawable/agricoltura_" />
 
 
             <View
@@ -52,398 +50,398 @@
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/al_dettaglio_" />
+                android:background="@drawable/al_dettaglio_" />
 
             <View
                 android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/amministrazione_" />
+                android:background="@drawable/amministrazione_" />
 
             <View
                 android:id="@+id/divider3"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/architettura_" />
+                android:background="@drawable/architettura_" />
 
             <View
                 android:id="@+id/divider4"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/arte_e_design_" />
+                android:background="@drawable/arte_e_design_" />
 
             <View
                 android:id="@+id/divider5"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/artigiano_" />
+                android:background="@drawable/artigiano_" />
 
             <View
                 android:id="@+id/divider6"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/assicurazioni_" />
+                android:background="@drawable/assicurazioni_" />
 
             <View
                 android:id="@+id/divider7"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-               android:foreground="@drawable/chimico_farmaceutico" />
+                android:background="@drawable/chimico_farmaceutico" />
 
             <View
                 android:id="@+id/divider8"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/contabilita_" />
+                android:background="@drawable/contabilita_" />
 
             <View
                 android:id="@+id/divider9"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/costruzioni_" />
+                android:background="@drawable/costruzioni_" />
 
             <View
                 android:id="@+id/divider10"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/finanza_" />
+                android:background="@drawable/finanza_" />
 
             <View
                 android:id="@+id/divider11"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/giurisprudenza_" />
+                android:background="@drawable/giurisprudenza_" />
 
             <View
                 android:id="@+id/divider12"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/industria_e_produzione_"  />
+                android:background="@drawable/industria_e_produzione_"  />
 
             <View
                 android:id="@+id/divider13"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button14"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/informatica_" />
+                android:background="@drawable/informatica_" />
 
             <View
                 android:id="@+id/divider14"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/ingegneria_" />
+                android:background="@drawable/ingegneria_" />
 
             <View
                 android:id="@+id/divider15"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/istruzione_e_formazione_" />
+                android:background="@drawable/istruzione_e_formazione_" />
 
             <View
                 android:id="@+id/divider16"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/marketing_" />
+                android:background="@drawable/marketing_" />
 
             <View
                 android:id="@+id/divider17"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button18"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:foreground="@drawable/meccanica_" />
+                android:background="@drawable/meccanica_" />
 
             <View
                 android:id="@+id/divider18"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button19"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/media_e_editoria_" />
+                android:background="@drawable/media_e_editoria_" />
 
             <View
                 android:id="@+id/divider19"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/mobiliare_" />
+                android:background="@drawable/mobiliare_" />
 
             <View
                 android:id="@+id/divider20"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button21"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/risorse_umane_" />
+                android:background="@drawable/risorse_umane_" />
 
             <View
                 android:id="@+id/divider21"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button22"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/ristorazione_" />
+                android:background="@drawable/ristorazione_" />
 
             <View
                 android:id="@+id/divider22"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button23"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/sanita" />
+                android:background="@drawable/sanita" />
 
             <View
                 android:id="@+id/divider23"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button24"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/scientifico" />
+                android:background="@drawable/scientifico" />
 
             <View
                 android:id="@+id/divider24"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button25"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/servizio_clienti_" />
+                android:background="@drawable/servizio_clienti_" />
 
             <View
                 android:id="@+id/divider25"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button26"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/sicurezza_" />
+                android:background="@drawable/sicurezza_" />
 
             <View
                 android:id="@+id/divider26"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button27"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/sicurezza_" />
+                android:background="@drawable/sicurezza_" />
 
             <View
                 android:id="@+id/divider27"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button28"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/sociale_" />
+                android:background="@drawable/sociale_" />
 
             <View
                 android:id="@+id/divider28"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button29"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/trasporti_e_logistica_" />
+                android:background="@drawable/trasporti_e_logistica_" />
 
             <View
                 android:id="@+id/divider29"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button30"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:foreground="@drawable/turistico_alberghiero" />
+                android:background="@drawable/turistico_alberghiero" />
 
             <View
                 android:id="@+id/divider30"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button31"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
 
-                android:foreground="@drawable/vendite_" />
+                android:background="@drawable/vendite_" />
 
             <View
                 android:id="@+id/divider31"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
                 android:visibility="invisible"
-                tools:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider" />
 
 
         </LinearLayout>
@@ -459,7 +457,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.90999997"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <Button
         android:id="@+id/button32"
@@ -471,7 +469,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:foreground="@drawable/home_" />
+        android:background="@drawable/home_" />
 
     <Button
         android:id="@+id/button33"
@@ -483,7 +481,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:foreground="@drawable/ricerca_" />
+        android:background="@drawable/ricerca_" />
 
     <Button
         android:id="@+id/button34"
@@ -495,7 +493,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:foreground="@drawable/shop" />
+        android:background="@drawable/shop" />
 
     <Button
         android:id="@+id/button35"
@@ -507,6 +505,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:foreground="@drawable/profilo_" />
+        android:background="@drawable/profilo_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:background="#FFFFFF"
     tools:context=".Home">
 
     <Button
@@ -67,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.914"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider2"
@@ -86,7 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider3"
@@ -104,7 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <View
         android:id="@+id/divider4"
@@ -122,7 +121,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="404dp"
@@ -145,7 +144,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="?android:attr/listDivider" />
+        android:background="?android:attr/listDivider" />
 
     <Button
         android:id="@+id/button7"

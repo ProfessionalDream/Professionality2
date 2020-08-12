@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="#FFFFFF"
+    android:background="#FFFFFF"
     tools:context=".modificaprofilo">
 
     <ImageView
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.285"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@android:drawable/sym_action_call" />
 
     <Button
         android:id="@+id/button38"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="#FFFFFF"
+    android:background="#FFFFFF"
     tools:context=".profilo">
 
     <ImageView
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.077"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@style/Animation.Design.BottomSheetDialog" />
 
     <TextView
         android:id="@+id/textView3"
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127"
-        tools:srcCompat="@drawable/vip" />
+        app:srcCompat="@drawable/vip" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127"
-        tools:srcCompat="@drawable/premium" />
+        app:srcCompat="@drawable/premium" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -104,13 +104,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068"
-        tools:srcCompat="@drawable/verificato" />
+        app:srcCompat="@drawable/verificato" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:background="#FFFFFF"
+        android:background="#FFFFFF"
         android:text="contatto "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,7 @@
         android:layout_marginEnd="280dp"
         android:layout_marginRight="280dp"
         android:layout_marginBottom="514dp"
-        tools:foreground="@drawable/likeno_"
+        android:foreground="@drawable/likeno_"
         android:shadowColor="#FFFFFF"
         android:text="Button"
         android:visibility="visible"
@@ -173,7 +173,7 @@
         android:id="@+id/divider6"
         android:layout_width="411dp"
         android:layout_height="9dp"
-        tools:background="?android:attr/listDivider"
+        android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -185,7 +185,7 @@
         android:id="@+id/button21"
         android:layout_width="62dp"
         android:layout_height="59dp"
-        tools:foreground="@drawable/home_"
+        android:foreground="@drawable/home_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -198,7 +198,7 @@
         android:id="@+id/button22"
         android:layout_width="74dp"
         android:layout_height="61dp"
-        tools:foreground="@drawable/ricerca_"
+        android:foreground="@drawable/ricerca_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -211,7 +211,7 @@
         android:id="@+id/button23"
         android:layout_width="72dp"
         android:layout_height="61dp"
-        tools:foreground="@drawable/shop"
+        android:foreground="@drawable/shop"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -224,7 +224,7 @@
         android:id="@+id/button24"
         android:layout_width="69dp"
         android:layout_height="58dp"
-        tools:foreground="@drawable/profilo_"
+        android:foreground="@drawable/profilo_"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -244,6 +244,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.354"
-        tools:foreground="@drawable/modifica_profilo" />
+        android:foreground="@drawable/modifica_profilo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.082"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:srcCompat="@android:drawable/sym_action_call" />
 
         <TextView
             android:id="@+id/textView7"
@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.073"
-            tools:srcCompat="@drawable/vip" />
+            app:srcCompat="@drawable/vip" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -72,7 +72,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.074"
-            tools:srcCompat="@drawable/premium" />
+            app:srcCompat="@drawable/premium" />
 
         <ImageView
             android:id="@+id/imageView8"
@@ -85,7 +85,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.558"
-            tools:srcCompat="@drawable/verificato" />
+            app:srcCompat="@drawable/verificato" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
