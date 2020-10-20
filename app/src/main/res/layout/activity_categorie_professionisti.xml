@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".categorie"
-    tools:ignore="MissingDefaultResource">
+    tools:ignore="ResourceLinkingFaliure">
 
     <SearchView
         android:id="@+id/searchView"
@@ -434,7 +433,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
 
-                android:background="@drawable/vendite_" />
+                android:background="@drawable/vendite" />
 
             <View
                 android:id="@+id/divider31"
