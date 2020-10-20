@@ -21,13 +21,13 @@
         android:id="@+id/imageView4"
         android:layout_width="174dp"
         android:layout_height="188dp"
+        android:foreground="@drawable/professionista_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517"
-        app:srcCompat="@drawable/professionista_scritta" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <Button
         android:id="@+id/button2"

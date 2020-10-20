@@ -9,130 +9,60 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="62dp"
-        android:layout_height="59dp"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:foreground="@drawable/home_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.995"
-        android:foreground="@drawable/home_" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="74dp"
-        android:layout_height="61dp"
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        android:foreground="@drawable/ricerca_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:foreground="@drawable/ricerca_" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="72dp"
-        android:layout_height="61dp"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:foreground="@drawable/shop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.997"
-        android:foreground="@drawable/shop" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="69dp"
-        android:layout_height="58dp"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
+        android:foreground="@drawable/profilo_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.995"
-        android:foreground="@drawable/profilo_" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="411dp"
-        android:layout_height="9dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914"
-        android:background="?android:attr/listDivider" />
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="9dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="690dp"
-        android:layout_marginEnd="272dp"
-        android:layout_marginRight="272dp"
-        android:layout_marginBottom="1dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="?android:attr/listDivider" />
-
-    <View
-        android:id="@+id/divider3"
-        android:layout_width="8dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="210dp"
-        android:layout_marginLeft="210dp"
-        android:layout_marginTop="660dp"
-        android:layout_marginEnd="126dp"
-        android:layout_marginRight="126dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:background="?android:attr/listDivider" />
-
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="7dp"
-        android:layout_height="68dp"
-        android:layout_marginStart="320dp"
-        android:layout_marginLeft="320dp"
-        android:layout_marginTop="660dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginRight="97dp"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.363"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="?android:attr/listDivider" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="404dp"
         android:layout_height="556dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/divider"
+        android:layout_marginTop="104dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/divider22"
@@ -140,23 +70,25 @@
         android:layout_height="10dp"
         android:layout_marginTop="87dp"
         android:layout_marginBottom="634dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="?android:attr/listDivider" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="175dp"
-        android:layout_height="83dp"
+        android:layout_width="145dp"
+        android:layout_height="74dp"
+        android:foreground="@drawable/nuovo_annuncio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:foreground="@drawable/nuovo_annuncio" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <Button
         android:id="@+id/button10"

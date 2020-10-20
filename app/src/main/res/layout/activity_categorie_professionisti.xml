@@ -5,32 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+    tools:background="#FFFFFF"
     tools:ignore="ResourceLinkingFaliure">
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="409dp"
-        android:layout_height="63dp"
+        android:layout_width="388dp"
+        android:layout_height="34dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="691dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="416dp"
-        android:layout_height="562dp"
+        android:layout_width="398dp"
+        android:layout_height="674dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39">
+        app:layout_constraintTop_toTopOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.64">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,8 +50,8 @@
                 android:id="@+id/divider1"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button2"
@@ -61,8 +63,8 @@
                 android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button3"
@@ -74,8 +76,8 @@
                 android:id="@+id/divider3"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button4"
@@ -87,8 +89,8 @@
                 android:id="@+id/divider4"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button5"
@@ -100,8 +102,8 @@
                 android:id="@+id/divider5"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button6"
@@ -113,8 +115,8 @@
                 android:id="@+id/divider6"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button7"
@@ -126,8 +128,8 @@
                 android:id="@+id/divider7"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button8"
@@ -139,8 +141,8 @@
                 android:id="@+id/divider8"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button9"
@@ -152,8 +154,8 @@
                 android:id="@+id/divider9"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button10"
@@ -165,8 +167,8 @@
                 android:id="@+id/divider10"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button11"
@@ -178,8 +180,8 @@
                 android:id="@+id/divider11"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button12"
@@ -191,21 +193,21 @@
                 android:id="@+id/divider12"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:background="@drawable/industria_e_produzione_"  />
+                android:background="@drawable/industria_e_produzione_" />
 
             <View
                 android:id="@+id/divider13"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button14"
@@ -217,8 +219,8 @@
                 android:id="@+id/divider14"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button15"
@@ -230,8 +232,8 @@
                 android:id="@+id/divider15"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button16"
@@ -243,8 +245,8 @@
                 android:id="@+id/divider16"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button17"
@@ -256,8 +258,8 @@
                 android:id="@+id/divider17"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button18"
@@ -269,8 +271,8 @@
                 android:id="@+id/divider18"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button19"
@@ -282,8 +284,8 @@
                 android:id="@+id/divider19"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button20"
@@ -295,8 +297,8 @@
                 android:id="@+id/divider20"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button21"
@@ -308,8 +310,8 @@
                 android:id="@+id/divider21"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button22"
@@ -321,8 +323,8 @@
                 android:id="@+id/divider22"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button23"
@@ -334,8 +336,8 @@
                 android:id="@+id/divider23"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button24"
@@ -347,8 +349,8 @@
                 android:id="@+id/divider24"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button25"
@@ -360,21 +362,9 @@
                 android:id="@+id/divider25"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
-            <Button
-                android:id="@+id/button26"
-                android:layout_width="match_parent"
-                android:layout_height="110dp"
-                android:background="@drawable/sicurezza_" />
-
-            <View
-                android:id="@+id/divider26"
-                android:layout_width="match_parent"
-                android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
 
             <Button
                 android:id="@+id/button27"
@@ -386,8 +376,8 @@
                 android:id="@+id/divider27"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button28"
@@ -399,8 +389,8 @@
                 android:id="@+id/divider28"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button29"
@@ -412,8 +402,8 @@
                 android:id="@+id/divider29"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button30"
@@ -425,8 +415,8 @@
                 android:id="@+id/divider30"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button31"
@@ -439,71 +429,73 @@
                 android:id="@+id/divider31"
                 android:layout_width="match_parent"
                 android:layout_height="13dp"
-                android:visibility="invisible"
-                android:background="?android:attr/listDivider" />
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
 
 
         </LinearLayout>
     </ScrollView>
 
-    <View
-        android:id="@+id/divider32"
-        android:layout_width="411dp"
-        android:layout_height="9dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.90999997"
-        android:background="?android:attr/listDivider" />
-
     <Button
         android:id="@+id/button32"
-        android:layout_width="62dp"
-        android:layout_height="55dp"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:foreground="@drawable/home_"
+        android:shadowColor="#FFFFFF"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/home_" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button33"
-        android:layout_width="74dp"
-        android:layout_height="61dp"
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        android:foreground="@drawable/ricerca_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.354"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/ricerca_" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button34"
-        android:layout_width="72dp"
-        android:layout_height="61dp"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:foreground="@drawable/shop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintHorizontal_bias="0.665"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/shop" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button35"
-        android:layout_width="69dp"
-        android:layout_height="58dp"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
+        android:foreground="@drawable/profilo_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/profilo_" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="191dp"
+        android:layout_height="47dp"
+        android:foreground="@drawable/attivitybutton"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
