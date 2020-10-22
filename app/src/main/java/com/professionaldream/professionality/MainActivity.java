@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.professionaldream.professionality.ui.login.login;
 
 
@@ -18,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
     @Override
     public void onAttachedToWindow(){
@@ -35,12 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
     boolean load(){
         ProgressBar p=findViewById(R.id.progressBar);
-        for(int x=0;x<=(p.getMax()*10000);x++){
-            for(int y=0;x<10000;x++){
-                y=(y*987)/987;
-            }
-            p.incrementProgressBy(1);
-        }
+        DataHolder.Auth =FirebaseAuth.getInstance();
+        p.incrementProgressBy(p.getMax());
         return true;
     }
 }

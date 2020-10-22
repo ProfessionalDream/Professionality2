@@ -19,6 +19,16 @@ public class LoggedInUser {
         this.photoUrl=photoUrl;
     }
 
+    @Override
+    public String toString() {
+        return "LoggedInUser{" +
+                "userId='" + userId + '\'' +
+                ", displayName='" + displayName + '\'' +
+                ", email='" + email + '\'' +
+                ", photoUrl=" + photoUrl +
+                '}';
+    }
+
     public Uri getPhotoUrl() {
         return photoUrl;
     }

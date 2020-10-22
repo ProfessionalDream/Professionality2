@@ -7,6 +7,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.contentcapture.DataShareWriteAdapter;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.professionaldream.professionality.DataHolder;
 import com.professionaldream.professionality.Home;
 import com.professionaldream.professionality.MainActivity;
 import com.professionaldream.professionality.R;
@@ -33,6 +35,8 @@ public class login extends AppCompatActivity {
     public void enterGuest(View v){
         boolean ok=guest();
         if (ok){
+            DataHolder.isGuest=true;
+            DataHolder.Auth.signInAnonymously();
             Intent i=new Intent(this,Home.class);
             startActivity(i);
         }
@@ -44,11 +48,6 @@ public class login extends AppCompatActivity {
 
     public void gotoRegister(View v){
         Intent i=new Intent(this,register.class);
-        startActivity(i);
-    }
-    public void doLogin(View v){
-        Intent i=new Intent(this, MainActivity.class);
-        Toast.makeText(this,"aa",Toast.LENGTH_LONG).show();
         startActivity(i);
     }
 
@@ -87,10 +86,7 @@ public class login extends AppCompatActivity {
                     return;
                 }
                 loadingProgressBar.setVisibility(View.GONE);
-                if (loginResult.getError() != null) {
-                    showLoginFailed(loginResult.getError());
-                }
-                if (loginResult.getSuccess() != null) {
+                if (loginResult.getSuccess()!=null&&DataHolder.Auth.getCurrentUser() != null) {
                     updateUiWithUser(loginResult.getSuccess());
                     finish();
                 }
@@ -142,7 +138,7 @@ public class login extends AppCompatActivity {
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
-        String welcome = getString(R.string.welcome) + model.getDisplayName();
+        String welcome = getString(R.string.welcome) + DataHolder.Auth.getCurrentUser().getDisplayName();
         // TODO : initiate successful logged in experience
         Intent i=new Intent(this,Home.class);
         startActivity(i);
