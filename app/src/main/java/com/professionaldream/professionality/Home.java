@@ -15,6 +15,6 @@ public class Home extends AppCompatActivity {
             Intent i=new Intent(this,com.professionaldream.professionality.ui.login.login.class);
             startActivity(i);
         }
-        new EasyGoto(this,R.id.button3,categorie.class);
+        EasyGoto.connectBar(this);
     }
 }

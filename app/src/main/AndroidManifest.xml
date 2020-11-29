@@ -14,6 +14,8 @@
         <activity android:name=".annuncio" />
         <activity android:name=".register" />
         <activity android:name=".Home" />
+        <activity android:name=".shop" />
+        <activity android:name=".profilo" />
         <activity
             android:name=".ui.login.login"
             android:label="@string/title_activity_login" />

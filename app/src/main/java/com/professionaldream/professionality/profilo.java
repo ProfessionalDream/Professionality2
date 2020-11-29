@@ -12,5 +12,6 @@ public class profilo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_profilo);
+        EasyGoto.connectBar(this);
     }
 }
