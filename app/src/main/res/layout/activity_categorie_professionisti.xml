@@ -10,24 +10,24 @@
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="388dp"
-        android:layout_height="34dp"
+        android:layout_width="393dp"
+        android:layout_height="49dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
-        android:layout_marginBottom="691dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" >
+        app:layout_constraintVertical_bias="0.0">
 
     </SearchView>
+
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="398dp"
-        android:layout_height="674dp"
+        android:layout_width="403dp"
+        android:layout_height="721dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
@@ -43,8 +43,8 @@
             <Button
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/amministrazione2" />
 
 
             <View
@@ -57,8 +57,8 @@
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/aldettaglio" />
 
             <View
                 android:id="@+id/divider2"
@@ -70,8 +70,8 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/architettura" />
 
             <View
                 android:id="@+id/divider3"
@@ -83,8 +83,8 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/artedesignn" />
 
             <View
                 android:id="@+id/divider4"
@@ -96,8 +96,8 @@
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/artigianato" />
 
             <View
                 android:id="@+id/divider5"
@@ -109,8 +109,8 @@
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/assicurazioni" />
 
             <View
                 android:id="@+id/divider6"
@@ -122,8 +122,8 @@
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/chimicofarmaceutico" />
 
             <View
                 android:id="@+id/divider7"
@@ -135,8 +135,8 @@
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/contabilita" />
 
             <View
                 android:id="@+id/divider8"
@@ -148,8 +148,8 @@
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/costruzioni" />
 
             <View
                 android:id="@+id/divider9"
@@ -161,8 +161,8 @@
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/finanza_" />
 
             <View
                 android:id="@+id/divider10"
@@ -174,8 +174,8 @@
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/giurisprudenza_" />
 
             <View
                 android:id="@+id/divider11"
@@ -187,8 +187,8 @@
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/immobiliare_" />
 
             <View
                 android:id="@+id/divider12"
@@ -200,8 +200,8 @@
             <Button
                 android:id="@+id/button13"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/industria_e_produzione_" />
 
             <View
                 android:id="@+id/divider13"
@@ -213,8 +213,8 @@
             <Button
                 android:id="@+id/button14"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp"
+                android:foreground="@drawable/informatica_" />
 
             <View
                 android:id="@+id/divider14"
@@ -226,8 +226,7 @@
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider15"
@@ -239,8 +238,7 @@
             <Button
                 android:id="@+id/button16"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider16"
@@ -252,8 +250,7 @@
             <Button
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider17"
@@ -265,8 +262,7 @@
             <Button
                 android:id="@+id/button18"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider18"
@@ -278,8 +274,7 @@
             <Button
                 android:id="@+id/button19"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider19"
@@ -291,8 +286,7 @@
             <Button
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider20"
@@ -304,8 +298,7 @@
             <Button
                 android:id="@+id/button21"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider21"
@@ -317,8 +310,7 @@
             <Button
                 android:id="@+id/button22"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider22"
@@ -330,8 +322,7 @@
             <Button
                 android:id="@+id/button23"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider23"
@@ -343,8 +334,7 @@
             <Button
                 android:id="@+id/button24"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="130dp" />
 
             <View
                 android:id="@+id/divider24"
@@ -356,8 +346,7 @@
             <Button
                 android:id="@+id/button25"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="110dp" />
 
             <View
                 android:id="@+id/divider25"
@@ -370,8 +359,7 @@
             <Button
                 android:id="@+id/button27"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="110dp" />
 
             <View
                 android:id="@+id/divider27"
@@ -383,8 +371,7 @@
             <Button
                 android:id="@+id/button28"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="110dp" />
 
             <View
                 android:id="@+id/divider28"
@@ -396,8 +383,7 @@
             <Button
                 android:id="@+id/button29"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="110dp" />
 
             <View
                 android:id="@+id/divider29"
@@ -409,8 +395,7 @@
             <Button
                 android:id="@+id/button30"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
-                />
+                android:layout_height="110dp" />
 
             <View
                 android:id="@+id/divider30"

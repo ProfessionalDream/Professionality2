@@ -123,39 +123,31 @@
         android:id="@+id/button8"
         android:layout_width="46dp"
         android:layout_height="43dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="174dp"
-        android:layout_marginEnd="280dp"
-        android:layout_marginRight="280dp"
-        android:layout_marginBottom="514dp"
         android:foreground="@drawable/likeno_"
         android:shadowColor="#FFFFFF"
         android:text="Button"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.134" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="46dp"
         android:layout_height="43dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="174dp"
-        android:layout_marginEnd="280dp"
-        android:layout_marginRight="280dp"
-        android:layout_marginBottom="514dp"
         android:shadowColor="#FFFFFF"
         android:text="Button"
         android:textColor="#FFFFFF"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.134" />
 
     <TextView
         android:id="@+id/textView18"
@@ -170,6 +162,7 @@
         app:layout_constraintVertical_bias="0.024" />
 
     <include
+        android:id="@+id/include2"
         layout="@layout/navigationbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
