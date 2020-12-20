@@ -1,6 +1,7 @@
 package com.professionaldream.professionality.AdapterAnnunci;
 
 import android.content.Context;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,7 +56,7 @@ public class Adapter_annunci extends BaseAdapter {
         Title.setText(questo_annuncio.titolo);
         Provincia.setText(questo_annuncio.provincia);
 
-        Picasso.get().load(questo_annuncio.imageUrl).resize(102,102).into(Foto);
+        Picasso.get().load(Uri.parse(questo_annuncio.imageUrl)).resize(102,102).into(Foto);
 
         if(questo_annuncio.status==1){
             vip_logo.setVisibility(View.VISIBLE);

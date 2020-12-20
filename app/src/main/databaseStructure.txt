@@ -1,0 +1,15 @@
+Annunci:
+    categoria1:
+        a1:score<int>,annuncio<Serialized Annuncio Object>;//score=status*10+max(9-day_since_it_was_posted,0)
+        a2:score<int>,annuncio<Serialized Annuncio Object>;
+        a3:score<int>,annuncio<Serialized Annuncio Object>;
+        ...
+    categoria2:
+        a1:score<int>,annuncio<Serialized Annuncio Object>;
+        a2:score<int>,annuncio<Serialized Annuncio Object>;
+        a3:score<int>,annuncio<Serialized Annuncio Object>;
+        ...
+    ...
+
+
+//a1,a2 because names don't really matters (sort by score) and if i used only numbers then firebase would convert the map in a list
