@@ -229,6 +229,7 @@
                     android:id="@+id/button16"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
+                    android:foreground="@drawable/vendita"
                     android:text="Button" />
             </TableRow>
 
@@ -240,6 +241,7 @@
                     android:id="@+id/button17"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
+                    android:foreground="@drawable/ingegneria_"
                     android:text="Button" />
 
                 <View
@@ -253,6 +255,7 @@
                     android:id="@+id/button18"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
+                    android:foreground="@drawable/sanita"
                     android:text="Button" />
 
 
@@ -266,7 +269,8 @@
                     android:id="@+id/button19"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/contabilit_"/>
 
                 <View
                     android:id="@+id/divider19"
@@ -279,7 +283,8 @@
                     android:id="@+id/button20"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/artigianato"/>
             </TableRow>
 
             <TableRow
@@ -290,7 +295,8 @@
                     android:id="@+id/button21"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/istruzione_e_formazione_"/>
 
                 <View
                     android:id="@+id/divider21"
@@ -303,7 +309,8 @@
                     android:id="@+id/button22"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/risorse_umame_"/>
             </TableRow>
 
             <TableRow
@@ -314,7 +321,8 @@
                     android:id="@+id/button23"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/meccanica_"/>
 
                 <View
                     android:id="@+id/divider23"
@@ -327,7 +335,8 @@
                     android:id="@+id/button24"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/chimico_farmaceutico"/>
             </TableRow>
 
             <TableRow
@@ -338,7 +347,8 @@
                     android:id="@+id/button25"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/trasporti_e_logistica_"/>
 
                 <View
                     android:id="@+id/divider25"
@@ -351,7 +361,8 @@
                     android:id="@+id/button26"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/ristorazione_"/>
             </TableRow>
 
             <TableRow
@@ -362,7 +373,8 @@
                     android:id="@+id/button27"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/sicurezza_"/>
 
                 <View
                     android:id="@+id/divider27"
@@ -375,32 +387,10 @@
                     android:id="@+id/button28"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:text="Button" />
+                    android:text="Button"
+                    android:foreground="@drawable/giurisprudenza_"/>
             </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/button29"
-                    android:layout_width="150dp"
-                    android:layout_height="130dp"
-                    android:text="Button" />
-
-                <View
-                    android:id="@+id/divider29"
-                    android:layout_width="10dp"
-                    android:layout_height="match_parent"
-                    android:background="?android:attr/listDivider"
-                    android:visibility="invisible" />
-
-                <Button
-                    android:id="@+id/button30"
-                    android:layout_width="150dp"
-                    android:layout_height="130dp"
-                    android:text="Button" />
-            </TableRow>
         </LinearLayout>
     </ScrollView>
 
